@@ -1,6 +1,6 @@
 import 'story.dart';
 
-class StoryBrain {
+class Story1Brain {
   List<Story> _storyData = [
     //Story0
     Story(
@@ -95,6 +95,14 @@ class StoryBrain {
       return true;
     } else {
       return false;
+    }
+  }
+
+  bool moreStoriesShouldBeVisible() {
+    if (_storyNumber == 0 || _storyNumber == 1 || _storyNumber == 2) {
+      return false;
+    } else {
+      return true;
     }
   }
 }

@@ -5,41 +5,42 @@ class Story2Brain {
     //Story0
     Story(
       storyTitle:
-          'Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: "Need a ride, boy?".',
-      choice1: 'I\'ll hop in. Thanks for the help!',
-      choice2: 'Better ask him if he\'s a murderer first.',
+          'You find yourself standing in the trenches of World War I. We\'ve lost at least 500 men, your best friend being among them. That same friend was killed by the same bullet that grazed your forehead leaving a deep gash. You\'ve just been ordered to attack.',
+      choice1: 'Be brave and charge out of that trench!',
+      choice2: 'Grasp your gun and shed some tears.',
     ),
     //Story1
     Story(
-      storyTitle: 'He nods slowly, unphased by the question.',
-      choice1: 'At least he\'s honest. I\'ll climb in.',
-      choice2: 'Wait, I know how to change a tire.',
+      storyTitle:
+          'Your commanding officer yells at you, "Stop crying and get over that hill"! You slowly turn as you cry and start climbing. As you peek your head out you see people shooting eachother, screaming, and dying. "Now!", your commanding officer yells.',
+      choice1: 'Calm down put on a brave face and charge!',
+      choice2: 'Slowly walk out to start aiming for enemies.',
     ),
     //Story2
     Story(
       storyTitle:
-          'As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.',
-      choice1: 'I love Elton John! Hand him the cassette tape.',
-      choice2: 'It\'s him or me! You take the knife and stab him.',
+          'You charge and start killing enemies one by one. As you continue to take out enemies you hear a very low plane about to pass by above you. You start thinking a plane this low might be this low to drop bombs!',
+      choice1: 'Shoot directly above you to shoot down the plane.',
+      choice2: 'Wait to see if it\'s an ememy plane.',
     ),
     //Story3
     Story(
       storyTitle:
-          'What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?',
+          'What? You went slowly? Perfect for the enemies to aim and shoot you before you can even aim! You\'re dead!',
       choice1: 'Restart',
       choice2: '',
     ),
     //Story4
     Story(
       storyTitle:
-          'As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.',
+          'The plane passes above and you see you\'ve made the right choice. The plane drops bombs onto the enemies, lowering their number of men immensely. Great job!',
       choice1: 'Restart',
       choice2: '',
     ),
     //Story5
     Story(
       storyTitle:
-          'You bond with the murderer while crooning verses of "Can you feel the love tonight". He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: "Try the pier".',
+          'Direct hit! The plane stumbles to the ground and explodes killing a lot of the enemies. Bad thing is, the plane was a friendly and your commanding officer is furious.',
       choice1: 'Restart',
       choice2: '',
     ),

@@ -5,41 +5,42 @@ class Story3Brain {
     //Story0
     Story(
       storyTitle:
-          'Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: "Need a ride, boy?".',
-      choice1: 'I\'ll hop in. Thanks for the help!',
-      choice2: 'Better ask him if he\'s a murderer first.',
+          'You\'re being responsible and walking to your apartment after a long night out drinking. As you get closer to home the streets get darker. All of a sudden you hear a strugel behind a corner. You take a peek and see a man trying to mug a woman.',
+      choice1: 'Mind your own business and continue home.',
+      choice2: 'Decide to do something about it.',
     ),
     //Story1
     Story(
-      storyTitle: 'He nods slowly, unphased by the question.',
-      choice1: 'At least he\'s honest. I\'ll climb in.',
-      choice2: 'Wait, I know how to change a tire.',
+      storyTitle:
+          'You yell out "Hey, leave her alone"! The man stops and the woman runs away. The man starts power walking towards you as he holds up his knife. You get behind the corner and start thinking what to do.',
+      choice1: 'Fight him!',
+      choice2: 'Start running home!',
     ),
     //Story2
     Story(
       storyTitle:
-          'As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.',
-      choice1: 'I love Elton John! Hand him the cassette tape.',
-      choice2: 'It\'s him or me! You take the knife and stab him.',
+          'As you walk home you start hearing extra footsteps following behind you. You stop and turn but it\'s too dark to make anyone out. You continue to walk and you hear the footsteps again. This time when you turn around there\'s a man covered in blood gripping his knife standing right in front of you!',
+      choice1: 'Scream, running!',
+      choice2: 'OMG! Fight him!',
     ),
     //Story3
     Story(
       storyTitle:
-          'What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?',
+          'You start running home. Once you get home you\'re relieved. You\'re heart slowing down from pounding moments ago. You feel good for savng that woman and gain some confidence. The next night, on the news, you see that same man got arrested for trying to mug a man who turned out to be a cop. "Haha!"',
       choice1: 'Restart',
       choice2: '',
     ),
     //Story4
     Story(
       storyTitle:
-          'As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.',
+          'You\'re pumped and ready to fight, but as soon as you throw your first punch, his knife jams right into your stomach. You look into his dark soulless eyes and then down at the knife. He slides the knife across and out your side as your blood and guts come pouring out. He watches as you bleed out on the floor.',
       choice1: 'Restart',
       choice2: '',
     ),
     //Story5
     Story(
       storyTitle:
-          'You bond with the murderer while crooning verses of "Can you feel the love tonight". He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: "Try the pier".',
+          'You start running home, screaming. Once you get home you\'re relieved. You\'re heart slowing down from pounding moments ago. All of a sudden a crash! The man followed your screams and threw himself into your window! He grabs you before you can run and slits your throat. He watches as you bleed out on the floor.',
       choice1: 'Restart',
       choice2: '',
     ),
@@ -79,7 +80,7 @@ class Story3Brain {
     } else if (_storyNumber == 2 && choiceNumber == 2) {
       _storyNumber = 4;
     } else if (_storyNumber == 1 && choiceNumber == 1) {
-      _storyNumber = 2;
+      _storyNumber = 4;
     } else if (_storyNumber == 1 && choiceNumber == 2) {
       _storyNumber = 3;
     }

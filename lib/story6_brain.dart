@@ -5,41 +5,42 @@ class Story6Brain {
     //Story0
     Story(
       storyTitle:
-          'Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: "Need a ride, boy?".',
-      choice1: 'I\'ll hop in. Thanks for the help!',
-      choice2: 'Better ask him if he\'s a murderer first.',
+          'Months after the death of your wife, your 18-year-old son says, "I saw mom in the kitchen..." You wait a moment and reply with a quivering voice, "What?" He responds, "I saw her yesterday in the kitch—", you cut him off, "You\'re mom is dead!" Your son angrily goes to his room.',
+      choice1: 'Ignore this situation and carry on.',
+      choice2: 'Go check up on him and apologize.',
     ),
     //Story1
     Story(
-      storyTitle: 'He nods slowly, unphased by the question.',
-      choice1: 'At least he\'s honest. I\'ll climb in.',
-      choice2: 'Wait, I know how to change a tire.',
+      storyTitle:
+          'You walk to your sons room. You open his room door to find him laying flat on his bed above the covers with his eyes closed. "I\'m sorry... Are you okay?", you ask. Billy replys, "Get out. I\'m trying to see mom again."',
+      choice1: 'I understand and get out.',
+      choice2: 'Get mad and stop him from doing whatever he\'s doing.',
     ),
     //Story2
     Story(
       storyTitle:
-          'As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.',
-      choice1: 'I love Elton John! Hand him the cassette tape.',
-      choice2: 'It\'s him or me! You take the knife and stab him.',
+          'As you carry on about your day, you remember hearing your wife talk about her interest in using the third eye. How, once mastered, you can remote view by traveling in the astral plane or even travel to diffrent times and timelines.',
+      choice1: 'Start doing some research on how to use the third eye.',
+      choice2: 'Forget about it, that stuff is science fiction.',
     ),
     //Story3
     Story(
       storyTitle:
-          'What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?',
+          'You get more strict with your son and he eventually moves out. You see online that he is living a happy and fulfilled life. You\'re happy for him even though you yourself have hit rock bottom. The happiest you are now is when you\'re reminiscing about the good old days with your wife and son.',
       choice1: 'Restart',
       choice2: '',
     ),
     //Story4
     Story(
       storyTitle:
-          'As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.',
+          'You carry on and eventually see your son get happier and happier with each day. You ask him how he\'s so happy. He goes on to tell you that he has been using his third eye to heal his life. In using his third eye he figured out a way to shift realities to better his life. You start to believe and let him teach you. You both live happily ever after.',
       choice1: 'Restart',
       choice2: '',
     ),
     //Story5
     Story(
       storyTitle:
-          'You bond with the murderer while crooning verses of "Can you feel the love tonight". He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: "Try the pier".',
+          'You start researching how to use your third eye. You eventally start successfuly using it. You find peace and wellness in your travels and bond with your son over this new found power. You both live on happily ever after.',
       choice1: 'Restart',
       choice2: '',
     ),

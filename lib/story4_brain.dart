@@ -5,41 +5,42 @@ class Story4Brain {
     //Story0
     Story(
       storyTitle:
-          'Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: "Need a ride, boy?".',
-      choice1: 'I\'ll hop in. Thanks for the help!',
-      choice2: 'Better ask him if he\'s a murderer first.',
+          'You find yourself nearing the end of an adventure of a lifetime. You and a smart muscular man have been on a quest to find an ancient tresure chest full of gold and rubies. You stumble upon a clue. A riddle written in hieroglyphs on a stone. You have no idea what it means. You watch as the man studies the hieroglyphs.',
+      choice1: 'Patiently wait.',
+      choice2: '"WELL?! WHAT DOES IT SAY?!"',
     ),
     //Story1
     Story(
-      storyTitle: 'He nods slowly, unphased by the question.',
-      choice1: 'At least he\'s honest. I\'ll climb in.',
-      choice2: 'Wait, I know how to change a tire.',
+      storyTitle:
+          'The man slowly turns his head. "I don\'t know yet... I\'m thinking." He takes a while longer beforer leading you both to a mountainside. He moves a giant rock revealing a cave. You excitedly run in. "WAIT!", he yells. But it\'s too late. The floor opens up and you fall in, but not before grabbing onto the ledge. It\'s a booby trap!',
+      choice1: 'Just hang there.',
+      choice2: '"WELL, HELP ME!"',
     ),
     //Story2
     Story(
       storyTitle:
-          'As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.',
-      choice1: 'I love Elton John! Hand him the cassette tape.',
-      choice2: 'It\'s him or me! You take the knife and stab him.',
+          'The man helps you out. He explains the riddle and you understand. You work together to figure out the next few clues. Finally you find the tresure chest buried beneath a giant boulder. The two of you dig it out and open it. The gold and rubies are blinding.',
+      choice1: 'Hug the man, "We did it!"',
+      choice2: 'Punch him and take the tresure for yourself!',
     ),
     //Story3
     Story(
       storyTitle:
-          'What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?',
+          '"I won\'t help you," he says. "Earlier you rudely yelled at me for no reason whatsoever. We\'ve been cool all throughout this long journy. We\'ve been Buds! Now you do it again? It\'s so uncharacteristic of you, as if something took over you and chose for you to do that. You\'re not the person I thought you were. Goodbye." As he walks off, you loose your grip and fall to your death.',
       choice1: 'Restart',
       choice2: '',
     ),
     //Story4
     Story(
       storyTitle:
-          'As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.',
+          'He\'s too big and muscular to knock out! He despises your betrayal and punches you in the face, knocking you out. You wake up to the man and the tresure nowhere to be found.',
       choice1: 'Restart',
       choice2: '',
     ),
     //Story5
     Story(
       storyTitle:
-          'You bond with the murderer while crooning verses of "Can you feel the love tonight". He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: "Try the pier".',
+          'The two of you split the tresure 50/50 and live long and wealthy lives.',
       choice1: 'Restart',
       choice2: '',
     ),

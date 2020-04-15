@@ -15,16 +15,14 @@ class MoreStoriesPage extends StatelessWidget {
         backgroundColor: Colors.black,
         appBar: AppBar(
           backgroundColor: Colors.black,
-//          leading: IconButton(
-//            icon: Icon(Icons.arrow_back_ios),
-//            onPressed: () => Navigator.pop(context),
-//          ),
-          title: Text(
-            'More Stories',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 33.0,
-              fontWeight: FontWeight.bold,
+          title: Center(
+            child: Text(
+              'More Stories      ',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 33.0,
+                fontWeight: FontWeight.bold,
+              ),
             ),
           ),
         ),
@@ -79,7 +77,7 @@ class MoreStoriesPage extends StatelessWidget {
                       children: <Widget>[
                         FlatButton(
                           child: Text(
-                            'Story 2                              ',
+                            'At World War I                           ',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 27.0,
@@ -115,7 +113,7 @@ class MoreStoriesPage extends StatelessWidget {
                       children: <Widget>[
                         FlatButton(
                           child: Text(
-                            'Story 3                              ',
+                            'Mugger or Murderer                  ',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 27.0,
@@ -150,7 +148,7 @@ class MoreStoriesPage extends StatelessWidget {
                       children: <Widget>[
                         FlatButton(
                           child: Text(
-                            'Story 4                              ',
+                            'Tresure Adventure                     ',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 27.0,
@@ -185,7 +183,7 @@ class MoreStoriesPage extends StatelessWidget {
                       children: <Widget>[
                         FlatButton(
                           child: Text(
-                            'Story 5                              ',
+                            'Strangeness                              ',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 27.0,
@@ -220,7 +218,7 @@ class MoreStoriesPage extends StatelessWidget {
                       children: <Widget>[
                         FlatButton(
                           child: Text(
-                            'Story 6                              ',
+                            'Third Eye                              ',
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 27.0,
